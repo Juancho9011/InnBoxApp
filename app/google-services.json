@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1011043165258",
+    "project_id": "innbox-a48ef",
+    "storage_bucket": "innbox-a48ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011043165258:android:6d95c04e20cc6e399c32b3",
+        "android_client_info": {
+          "package_name": "com.example.innbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011043165258-u2cjpkk5de6uo6cu5a91jr71ntobsr53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.innbox",
+            "certificate_hash": "d1127e4154353ce56eb7c1db4d5b39fbacb9b542"
+          }
+        },
+        {
+          "client_id": "1011043165258-rjjntoi7fqu2s1i1on7jlqtv710oc4f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbLkPXxqHLxHZR3QYzOCTgrLBjoVF4vJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011043165258-rjjntoi7fqu2s1i1on7jlqtv710oc4f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

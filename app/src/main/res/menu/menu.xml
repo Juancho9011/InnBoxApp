@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Aceptados"
+        android:title="Aceptados"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/disponibles"
+        android:title="Disponibles"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/historial"
+        android:title="Historial"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/salir2"
+        android:title="Salir"
+        app:showAsAction="never"></item>
+
+</menu>

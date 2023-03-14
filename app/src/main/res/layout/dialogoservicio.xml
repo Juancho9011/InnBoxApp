@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#835ACD"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iconPeso1"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/baseline_date_range"></ImageView>
+
+        <TextView
+            android:id="@+id/calendario"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/baseline_access_time_24"></ImageView>
+
+        <TextView
+            android:id="@+id/horaEntrada"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/baseline_hourglass_top_24"></ImageView>
+
+        <TextView
+            android:id="@+id/horasdeTrabajo"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"></TextView>
+
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight=".5"
+            android:src="@drawable/baseline_attach_money_24"></ImageView>
+
+        <TextView
+            android:id="@+id/dinero"
+            android:layout_width="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/baseline_map"></ImageView>
+
+        <TextView
+            android:id="@+id/direccion"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"></TextView>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/baseline_workspace_premium_24"></ImageView>
+
+        <TextView
+            android:id="@+id/tipoServicio"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:text="Aceptar"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/baseline_check_circle_24"
+            />
+
+        <Button
+            android:id="@+id/btnRechazar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:text="Rechazar"
+            android:drawableLeft="@drawable/baseline_cancel_24"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/valorContraoferta"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:hint="Ingresar valor Contraoferta"
+            android:inputType="number"
+            android:textSize="11dp" />
+
+        <Button
+            android:id="@+id/btnContraoferta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="0.5"
+            android:drawableLeft="@drawable/baseline_currency_exchange_24"
+            android:text="Realziar Contraoferta"
+            android:textAllCaps="false"
+            android:textSize="11dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
